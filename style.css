@@ -8,15 +8,43 @@ header {
     display: flex;
     z-index: 1;
     justify-content: space-between;
+    position: fixed;
+}
+
+.top-container {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.5)
+   
 }
 
-ul {
-    list-style-type: none;
+nav button {
+    border-color: transparent;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 30px;
 }
 
 /* MAIN CONTAINER E SEZIONI */
