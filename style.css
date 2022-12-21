@@ -53,10 +53,42 @@ main {
     width: 1200px;
     text-align: center;
     margin: 0 auto;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    
+  
+}
+
+.card-servizi {
+    width: 300px;
+    height: 300px;
+    background-color: #b5ddff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    z-index: 1;
+    justify-content: center;
+}
+
+#telefono {
+    width: 620px;
+    height: 300px;
+}
+
+.card-servizi > i {
+    color: #0084fd;
 }
 
 .section-servizi {
-    height: 600px;
+    height: 750px;
+    flex-direction: row;
 }
 
 .section-pianificazione {
