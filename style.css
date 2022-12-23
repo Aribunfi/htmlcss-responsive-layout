@@ -8,7 +8,7 @@ header {
     display: flex;
     z-index: 1;
     justify-content: space-between;
-    position: fixed;
+   
 }
 
 .top-container {
@@ -53,7 +53,7 @@ main {
     width: 1200px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 50px;
     
 }
 
@@ -63,8 +63,7 @@ main {
     flex-direction: row;
     gap: 25px;
     justify-content: center;
-    
-  
+   
 }
 
 .card-servizi {
@@ -78,32 +77,105 @@ main {
     justify-content: center;
 }
 
+
 #telefono {
     width: 620px;
     height: 300px;
+    
 }
 
+.spiega {
+    flex-direction: column;
+    text-align: left;
+    margin-left: 25px;
+    vertical-align: middle;
+}
+
+#app-button {
+    border-color: transparent;
+    background-color: #0083fc;
+    color: white;
+    border-radius: 25px;
+    padding: ì5px;
+}
 .card-servizi > i {
     color: #0084fd;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    flex-direction: row;
 }
 
 .section-servizi {
     height: 750px;
+    display: flex;
     flex-direction: row;
 }
 
 .section-pianificazione {
     background-color: #9792e4;
     height: 600px;
+    display: flex;
+    flex-direction: row;
+   
 }
+
+.col-wm .col-mn {
+    flex-direction: column;
+}
+
+.col > img {
+    width: 300px;
+}
+
+.col-wm > img {
+    height: 300px;
+}
+
+.col-mn > img {
+    height: 300px;
+}
+
 
 .section-partners {
     height: 600px;
+    display: inline;
+   
+}
+
+.testimonial {
+    width: 800px;
+    height: 250px;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 25px;
+    display: flex;
 }
 
 .section-benefit {
     background-color: #9792e4;
     height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#title-benefit {
+    display: inline;
+    text-align: center;
+}
+
+.card-benefici {
+    background-color: #ffffff;
+    color: #9792e4;
+    text-align: left;
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.section-about {
+    display: flex;
 }
 
 .section-call {
